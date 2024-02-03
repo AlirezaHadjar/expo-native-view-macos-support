@@ -1,9 +1,17 @@
 {
-  "platforms": ["ios", "android", "web"],
-  "ios": {
-    "modules": ["ExpoNativeViewModule"]
+  "platforms": [
+    "apple",
+    "android",
+    "web"
+  ],
+  "apple": {
+    "modules": [
+      "ExpoNativeViewModule"
+    ]
   },
   "android": {
-    "modules": ["expo.modules.nativeview.ExpoNativeViewModule"]
+    "modules": [
+      "expo.modules.nativeview.ExpoNativeViewModule"
+    ]
   }
 }
